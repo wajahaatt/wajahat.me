@@ -1,0 +1,98 @@
+body {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+font-style: inherit;
+}
+
+header {}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 100px;
+    height: 220px;
+    width: 200px;
+}
+
+.name {}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 800px;
+     font-family: "poppins",sans-serif;
+
+}
+
+.address {
+    color: hsl(75, 94%, 57%);
+    font-size: 19px;
+    font-weight: 700px;
+    font-family: "poppins",sans-serif;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+}
+
+p {}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.bio {
+    color: hsl(0, 0%, 55%);
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 40px;
+    font-family: "poppins", sans-serif;
+    font-optical-sizing: auto;
+    font: weight 400px; ;
+}
+
+.links {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    height: 60px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+    font: weight 700px;
+    color: hsl(0, 0%, 8%);
+}
+
+button {
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+}
